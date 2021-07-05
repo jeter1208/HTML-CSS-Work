@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .*{
+            padding: 0px;
+            margin: 0px;
+        }
+        .about{
+            width:960px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+            /* flex-wrap: wrap;允許換行 */
+        }
+        .about h2{
+            text-align: center;
+            width: 100%;
+        }
+        .about .item{
+            width: 268px;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #f00;
+            display: flex;
+            flex-direction: column;
+        }
+        .about .item img{
+            width: 100%;
+            vertical-align: top;
+        }
+        .about.item p{
+            flex-grow: 1;
+            /* margin-bottom: auto;
+            margin-top: auto; */
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="about">
+        <h2>title</h2>
+        <div class="item">
+            <img src="https://picsum.photos/600/300?random=3" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates excepturi ex dolorem cum vel dolor id ut distinctio suscipit sit pariatur perferendis, aperiam at corrupti cupiditate explicabo facere aliquid!</p>
+            <a href="">前往網站</a>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/600/300?random=3" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates excepturi ex dolorem cum vel dolor id ut distinctio suscipit sit pariatur perferendis, aperiam at corrupti cupiditate explicabo facere aliquid!</p>
+            <a href="">前往網站</a>
+        </div>
+        <div class="item">
+            <img src="https://picsum.photos/600/300?random=3" alt="">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptates excepturi ex dolorem cum vel dolor id ut distinctio suscipit sit pariatur perferendis, aperiam at corrupti cupiditate explicabo facere aliquid!</p>
+            <a href="">前往網站</a>
+        </div>
+</div>
+</body>
+</html>
