@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            width: 600px;
+            height: 600px;
+            background-color: blue;
+            flex-direction: row;
+            /* align-items: center; 
+            align-content:center; */
+            /* align-content: ;控制彈性列交叉軸的內容物搭配items用 */
+            /* flex-direction: column;主軸方向直向 */
+            /* flex-direction: row;橫向 */
+            /* flex-wrap: wrap;控制交叉軸方向 */
+            /* align-items: flex-start;彈性列子物件交叉軸的位置 */
+            /* align-items:flex-end  center */
+        }
+        .item{
+            /* flex-basis: 50px; */
+            width: 700px;
+            height: 100px;
+            margin: 4px;
+            background-color: red;
+            font-size: 50px;
+            flex-shrink: -1;
+            }
+            /* flex-shrink: 0;收縮值 */
+            /* margin:auto 5px;也可以垂直居中 */
+            /* flex-basis: 50px;主軸中的基本值
+        } */
+        /* .item:first-child{
+            height: 200px;
+        } */
+       
+         /* flex-grow: 1;分配剩餘空間 */
+         /* order: 1;單純順序 原本為0 讓後面往前-1 不然就按照原始碼順序 */ 
+
+         .item:nth-child(1){
+            flex-grow: 1;
+        }
+        .item:nth-child(2){
+            flex-grow:1;
+        }
+        .item:nth-child(3){
+            flex-grow:1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <!-- <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div> -->
+    </div>
+</body>
+</html>
