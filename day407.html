@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            --x-width:25px;
+            --y-width:15px;
+            width: 0;
+            height: 0;
+            margin: 30px;
+            border-top: var(--y-width) solid red;
+            border-left:var(--x-width) solid green;
+            border-bottom: var(--y-width) solid blue;
+            border-right:var(--x-width) solid yellow;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box"></div>
+</body>
+</html>
