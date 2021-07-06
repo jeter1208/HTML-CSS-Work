@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .*{
+        margin: 0;
+        padding:0;
+    }
+    .big{
+        width:960px;
+        /* display: flex;
+      flex-wrap: wrap;換行 */
+      /* flex-wrap: wrap;換行 */
+      border: 1px solid blue;
+    }
+    .box{
+       
+        display: flex;
+        border: 1px solid red;
+        margin: 10px;
+    }
+    .box .pic{
+        width:50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .box img{
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        object-fit: cover;
+    }
+    .box .txt{
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .big .box:nth-child(even){
+          flex-direction: row-reverse;
+      }
+</style>
+</head>
+<body>
+    <div class="big">
+        <div class="box">
+            <div class="pic">
+            <img src="https://picsum.photos/400/400?random=2" alt="">
+            </div>
+             <div class="txt">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum placeat excepturi ipsa quaerat incidunt ab illo voluptatibus debitis sapiente. !</p>
+            </div>
+        
+        </div>
+        <div class="box">
+            <div class="pic">
+            <img src="https://picsum.photos/400/400?random=2" alt="">
+            </div>
+             <div class="txt">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum placeat excepturi ipsa quaerat incidunt ab illo voluptatibus debitis sapiente. !</p>
+            </div>
+        
+        </div>
+        <div class="box">
+            <div class="pic">
+            <img src="https://picsum.photos/400/400?random=2" alt="">
+            </div>
+             <div class="txt">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum placeat excepturi ipsa quaerat incidunt ab illo voluptatibus debitis sapiente. !</p>
+            </div>
+        
+        </div>
+        <div class="box">
+            <div class="pic">
+            <img src="https://picsum.photos/400/400?random=2" alt="">
+            </div>
+             <div class="txt">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum placeat excepturi ipsa quaerat incidunt ab illo voluptatibus debitis sapiente. !</p>
+            </div>
+        
+        </div>
+        <div class="box">
+            <div class="pic">
+            <img src="https://picsum.photos/400/400?random=2" alt="">
+            </div>
+             <div class="txt">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum placeat excepturi ipsa quaerat incidunt ab illo voluptatibus debitis sapiente. !</p>
+            </div>
+        
+        </div>
+        <div class="box">
+            <div class="pic">
+            <img src="https://picsum.photos/400/400?random=2" alt="">
+            </div>
+             <div class="txt">
+            <h3>title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laborum placeat excepturi ipsa quaerat incidunt ab illo voluptatibus debitis sapiente. !</p>
+            </div>
+        
+        </div>
+    </div>
+</body>
+</html>
