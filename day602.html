@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-image: linear-gradient(0deg,red,yellow);
+            background-repeat: no-repeat;
+            background-size: 100px 10px;
+        }
+        p{
+            background-color: #ccc;
+            padding-left: 1em;
+            position: relative;
+        }
+        p::before{
+            content: '';
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #f00;
+            left: 5px;
+            top: 5px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, odio doloremque. Ipsa facere autem rem porro nulla maxime corrupti laboriosam minima, repellat est impedit officia eaque deleniti laudantium optio dolorem.</p>
+</body>
+</html>
