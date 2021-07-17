@@ -135,19 +135,40 @@
 .about{
     width: 40%;
     height: 735px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px 120px;
 }
 .about h1{
     font-size: 20px;
-    margin-top: 90px;
+    margin-top: 150px;
     margin-left: 50px;
 }
 .about h2{
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 30px;
     margin-left: 50px;
 }
 .about h3{
     font-size: 20px;
+    margin: 40px 50px;
+}
+.about p{
+    font-size: 20px;
+    margin: 30px 50px;
+}
+.about a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.readmore{
+    width: 200px;
+    height: 60px;
+    background-color: greenyellow;
+    margin: 60px 40px;
+    text-align: center;
+}
+.readmore a{
+    font-size: 18px;
+    color:white; 
+    line-height: 60px;
 }
