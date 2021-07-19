@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: #f00;
+        }
+   @media screen and (min-width:768px){
+       .box{
+           background-color: #0f0;
+       }
+   }
+   @media screen and (min-width:1024px){
+       .box{
+           background-color: #00f;
+       }
+   }
+   @media screen and (min-width:1200px){
+       .box{
+           background-color: orange;
+       }
+   }
+   /* 大於等於768px
+   都會成立優先權的概念 */
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
