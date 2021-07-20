@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            max-width: 1200px;
+            display: flex;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        [class*="col-"]{
+            --ooxx :15px
+            box-sizing: border-box;
+            padding-left: var(--ooxx);
+            padding-right: var(--ooxx);
+            /* /* --ooxx自訂屬性 */
+        }
+         .col-1{ width: 8.333333%;}
+         .col-2{ width: 16.333333%;}
+         .col-3{ width: 25%;}
+         .col-4{ width: 33.333333%;}
+         .col-5{ width: 41.666666%;}
+         .col-6{ width: 50%;}
+         .col-7{ width: 58.333333%;}
+         .col-8{ width: 66.333333%;}
+         .col-9{ width: 75%;}
+        .col-10{ width: 83.333333%;}
+        .col-11{ width: 91.666666%;}
+        .col-12{ width: 100%;}
+        p{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit, fuga nemo ipsam assumenda repellendus cumque, dolores pariatur enim, commodi ullam nobis. Veniam nobis eveniet nisi architecto quas adipisci aperiam?</p>
+        </div>
+        <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit, fuga nemo ipsam assumenda repellendus cumque, dolores pariatur enim, commodi ullam nobis. Veniam nobis eveniet nisi architecto quas adipisci aperiam?</p>
+        </div>
+        <div class="col-4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id velit, fuga nemo ipsam assumenda repellendus cumque, dolores pariatur enim, commodi ullam nobis. Veniam nobis eveniet nisi architecto quas adipisci aperiam?</p>
+        </div>
+    </div>
+</body>
+</html>
