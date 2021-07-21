@@ -31,9 +31,9 @@
         text-align: center;
         margin: auto;
     } 
-    .item{
+    /* .item{
         width: 100%;
-        /* margin: 15px; */
+        margin: 15px;
     }   
     .item img{
         width: 100%;
@@ -43,7 +43,7 @@
         text-align: center;
         font-size: 22px;
         margin: 10px;
-    }
+    } */
 
     
 }
@@ -248,14 +248,14 @@ margin:0px 100px;
     margin: 0px 15px;
     justify-content:space-evenly; */
  .about{
-        width:1200px;
+       max-width 100%;;
         display: flex;
         flex-wrap: wrap;
        text-align: center;
        margin: auto;
     } 
     .item{
-        width: 370px;
+        width: 33.33333%;
         margin: 15px;
     }   
     .item img{
