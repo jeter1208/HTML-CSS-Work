@@ -98,6 +98,28 @@
         text-align: center;
         padding: 20px;
     }
+    .about{
+        max-width :1200px;
+         display: flex;
+         flex-wrap: wrap;
+        text-align: center;
+        margin: auto;
+     } 
+     .item{
+         width: 100%;
+         margin: auto;
+         display: flex;
+         flex-wrap: wrap;
+     }   
+     .item img{
+         width: 100%;
+         margin: 10px ;
+     }
+     .item h3{
+         text-align: center;
+         font-size: 22px;
+         margin: 10px;
+     }
     
 }
 @media screen and (min-width:1024px){
@@ -251,7 +273,7 @@ margin:0px 100px;
        max-width :1200px;
         display: flex;
         flex-wrap: wrap;
-       /* text-align: center; */
+       text-align: center;
        margin: auto;
     } 
     .item{
