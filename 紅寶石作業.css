@@ -1,5 +1,5 @@
 
-@media screen and (min-width:320px){
+/* @media screen and (min-width:320px){
     .header{
         max-width: 100%;
         display: flex;
@@ -37,7 +37,7 @@
     }   
     .item img{
         width: 100%;
-        margin: 10px ;
+        margin: 10px;
     }
     .item h3{
         text-align: center;
@@ -71,7 +71,7 @@
         margin: auto;
         text-align: center;
         padding: 20px;
-    }
+    } */
     
 }
 @media screen and (min-width:768px){
@@ -298,8 +298,10 @@ margin:0px 100px;
     /* padding: 20px; */
 }
 .team{
-    width:40%;
-    margin: 40px 60px;
+    width: 47%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 59px;
     display: flex;
     flex-wrap: wrap;
 }
